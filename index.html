@@ -2,9 +2,211 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>TJ Mazeika | Resume</title>
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;1,300;1,500&display=swap">
+  <link rel="stylesheet" href="styles.css"/>
+
+  <title>Resume</title>
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <div class="content-container">
+    <div class="content">
+      <header class="title">
+        <h1>Thomas Mazeika Jr.</h1>
+        <div class="subtitle">
+          <p>tj.mazeika@pm.me</p>
+          <p>856-261-3927</p>
+          <div class="github-container">
+            <img class="github-img" src="github.svg" alt="GitHub logo"/>
+            <p>/tmazeika</p>
+          </div>
+        </div>
+      </header>
+      <main class="left-right-container">
+        <aside class="left">
+          <section class="section">
+            <h2>Education</h2>
+            <section class="subsection">
+              <h3>Northeastern University</h3>
+              <p>
+                <em>Khoury College of Computer Sciences</em>
+                <br/>
+                <br/>
+                Candidate for a Bachelor of Science<br/>degree in Computer Science
+                <br/>
+                <br/>
+                Class of 2022
+                <br/>
+                3.82/4.00 GPA
+              </p>
+            </section>
+            <section class="subsection">
+              <h3><em>Coursework</em></h3>
+              <ul>
+                <li>Object-Oriented Design</li>
+                <li>Computer Systems</li>
+                <li>Algorithms &amp; Data</li>
+                <li>Database Design</li>
+                <li>Artificial Intelligence</li>
+                <li>Networks &amp; Distributed Systems</li>
+                <li>"Bostonography"</li>
+              </ul>
+            </section>
+          </section>
+          <section class="section">
+            <h2>CS Knowledge</h2>
+            <section class="subsection">
+              <h3><em>Languages</em></h3>
+              <div class="skill-grid">
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">Java</div>
+                  <div class="skill-grid-item">PHP</div>
+                  <div class="skill-grid-item">JavaScript</div>
+                </div>
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">Go</div>
+                  <div class="skill-grid-item">Dart</div>
+                  <div class="skill-grid-item">HTML</div>
+                </div>
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">C/C++</div>
+                  <div class="skill-grid-item">Python</div>
+                  <div class="skill-grid-item">CSS</div>
+                </div>
+              </div>
+            </section>
+            <section class="subsection">
+              <h3><em>Software &amp; Services</em></h3>
+              <div class="skill-grid">
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">Linux</div>
+                  <div class="skill-grid-item">Jenkins</div>
+                  <div class="skill-grid-item">Docker</div>
+                </div>
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">Bash</div>
+                  <div class="skill-grid-item">MongoDB</div>
+                  <div class="skill-grid-item">Vue.js</div>
+                </div>
+                <div class="skill-grid-col">
+                  <div class="skill-grid-item">AWS</div>
+                  <div class="skill-grid-item">GCP</div>
+                  <div class="skill-grid-item">Selenium</div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="section">
+            <h2>Interests</h2>
+            <section class="subsection">
+              <ul>
+                <li>Graphics</li>
+                <li>Photography</li>
+                <li>Music</li>
+                <li>Cooking</li>
+              </ul>
+            </section>
+          </section>
+        </aside>
+        <main class="right">
+          <section class="section">
+            <h2>Projects</h2>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>SuiteServe</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">March 2020 &ndash; Present</p>
+              </div>
+              <ul>
+                <li>A test reporting system and real-time UI written in Go</li>
+                <li>Exposes a REST API over HTTP/2  to query and upsert test suites</li>
+                <li>Uses Vue.js with Vuex and WebSockets to receive data updates</li>
+              </ul>
+            </section>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>TTEmpire</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">April &ndash; July 2017</p>
+              </div>
+              <ul>
+                <li>An e-commerce website using Laravel and the PayPal API</li>
+                <li>Developed for a client to showcase and sell table tennis accessories</li>
+                <li>Adapted to be responsive with CSS breakpoints</li>
+              </ul>
+            </section>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>emulifx, ledlifx, implifx, clifx</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">August &ndash; September 2016</p>
+              </div>
+              <ul>
+                <li>Enables the emulation, testing, and control of LIFX smart light bulbs</li>
+                <li>Interfaces include an OpenGL app, a CLI, and the Raspberry Pi</li>
+                <li>Written in Go to connect to bulbs via UDP broadcasting and TCP</li>
+              </ul>
+            </section>
+          </section>
+          <section class="section">
+            <h2>Experience</h2>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>Digitas</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">January &ndash; July 2020</p>
+              </div>
+              <p><em>Associate DevOps Engineer</em> &ndash; Boston, MA</p>
+              <ul>
+                <li>Streamlined front-end QA automation processes with Selenium Java</li>
+                <li>Automated Jenkins-Confluence sync to bolster information access</li>
+                <li>Investigated AWS services for future audio and video analysis projects</li>
+              </ul>
+            </section>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>Cheeky Monkey Brewing Co</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">December 2018 &ndash; June 2019</p>
+              </div>
+              <p><em>Server</em> &ndash; Boston, MA</p>
+              <ul>
+                <li>Delivered pleasurable dining experiences to high volumes of guests</li>
+                <li>Welcomed diners in a professional manner while building a rapport</li>
+                <li>Collaborated in a large team to ensure cleanliness and efficiency</li>
+              </ul>
+            </section>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>IATSE Local 8</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">February 2016 &ndash; June 2018</p>
+              </div>
+              <p><em>Stagehand Apprentice</em> &ndash; Sewell, NJ</p>
+              <ul>
+                <li>Exceeded client expectations with amazing spectacles in a small crew</li>
+                <li>Responded rapidly to sudden technical issues and requests</li>
+                <li>Ensured the production readiness of critical stage equipment</li>
+              </ul>
+            </section>
+            <section class="subsection">
+              <div class="experience-title">
+                <h3>Washington Township Public Schools</h3>
+                <div class="flex-spacer"></div>
+                <p class="experience-dates">July 2017 &ndash; January 2018</p>
+              </div>
+              <p><em>IT Technician</em> &ndash; Sewell, NJ</p>
+              <ul>
+                <li>Prepared student laptops for use throughout the school district</li>
+                <li>Troubleshot computer hardware problems for staff and students</li>
+                <li>Expedited equipment servicing by ordering parts and making repairs</li>
+              </ul>
+            </section>
+          </section>
+        </main>
+      </main>
+    </div>
+  </div>
 </body>
 </html>
