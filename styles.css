@@ -76,7 +76,7 @@ ul {
 }
 
 .right ul {
-  list-style: inside;
+  padding: 0 1em;
 }
 
 .section:not(:first-of-type), .subsection {
