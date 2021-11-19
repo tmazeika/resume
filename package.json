@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "electron-pdf $(pwd)/index.html $(pwd)/build/resume.pdf"
+  },
+  "dependencies": {
+    "electron-pdf": "^15.0.0"
+  }
+}
