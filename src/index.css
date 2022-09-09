@@ -5,7 +5,7 @@
 :root {
   --width: 8.5in;
   --height: 11in;
-  --padding: 0.75in;
+  --padding: 0.70in;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   height: var(--height);
   margin: 0;
   padding: var(--padding);
+  position: relative;
 }
 
 @media screen {
