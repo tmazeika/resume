@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --width: 8.5in;
+  --height: 11in;
+  --padding: 0.75in;
+}
+
+body {
+  width: var(--width);
+  height: var(--height);
+  margin: 0;
+  padding: var(--padding);
+}
+
+@media screen {
+  body {
+    --border-width: 1px;
+    border: var(--border-width) solid rgba(0, 0, 0, 0.25);
+    padding: calc(var(--padding) - var(--border-width));
+  }
+}
+
+@page {
+  size: var(--width) var(--height);
+  margin: 0;
+
+  @top-left-corner {
+    content: none;
+  }
+  @top-right-corner {
+    content: none;
+  }
+  @bottom-right-corner {
+    content: none;
+  }
+  @bottom-left-corner {
+    content: none;
+  }
+}
