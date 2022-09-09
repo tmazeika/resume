@@ -18,7 +18,7 @@ body {
 @media screen {
   body {
     --border-width: 1px;
-    border: var(--border-width) solid rgba(0, 0, 0, 0.25);
+    border: var(--border-width) solid theme('colors.blue.400');
     padding: calc(var(--padding) - var(--border-width));
   }
 }
