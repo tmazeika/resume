@@ -51,7 +51,7 @@ export default {
       end: 'June 2021',
       body: [
         'Enriched product owner insights into developer productivity by tracking Azure DevOps activity from its REST and OData API endpoints; displayed in graphs with the Highcharts library.',
-        'Boosted the performance of an internal .NET and React application by 90%.',
+        'Boosted the performance of an internal .NET and React application by 90% through more modern data loading techniques.',
         'Pair-programmed with team members and submitted code reviews to promote code quality.',
       ],
     },
