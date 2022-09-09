@@ -19,6 +19,7 @@ function Page() {
             </div>
           </div>
         </div>
+
         <SectionTitle>Skills</SectionTitle>
         <table>
           {data.skills.map(({ category, items }, i) => (
@@ -28,6 +29,7 @@ function Page() {
             </tr>
           ))}
         </table>
+
         <SectionTitle>Experience</SectionTitle>
         {data.experience.map(({ body, ...title }, i) => (
           <div key={i}>
@@ -39,6 +41,7 @@ function Page() {
             </List>
           </div>
         ))}
+
         <SectionTitle>Education</SectionTitle>
         {data.education.map(({ body, ...title }, i) => (
           <div key={i}>
@@ -47,7 +50,10 @@ function Page() {
           </div>
         ))}
       </div>
-      <p className="absolute inset-0 text-blue-400 print:text-white text-xs">{data.keywords.join(', ')}</p>
+
+      <p className="absolute inset-0 text-blue-400 print:text-white text-xs">
+        {data.keywords.join(', ')}
+      </p>
     </>
   );
 }
