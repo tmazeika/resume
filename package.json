@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs && cd docs && electron-pdf --pageSize=Letter --printBackground --outputWait=1000 $(pwd)/index.html $(pwd)/../resume.pdf"
+    "build": "react-scripts build",
+    "build:pdf": "yarn build && cd build && electron-pdf --pageSize=Letter --printBackground --outputWait=1000 $(pwd)/index.html $(pwd)/../resume.pdf"
   },
   "homepage": "./",
   "eslintConfig": {
