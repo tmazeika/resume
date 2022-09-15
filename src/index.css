@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./lora.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: url(./lora-italics.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./lora.ttf) format('truetype');
+}
+
+:root {
+  --width: 8.5in;
+  --height: 11in;
+  --padding: 0.5in;
+}
+
+body {
+  width: var(--width);
+  height: var(--height);
+  margin: 0;
+  padding: var(--padding);
+  position: relative;
+}
+
+@media screen {
+  body {
+    --border-width: 1px;
+    border: var(--border-width) solid theme('colors.blue.400');
+    padding: calc(var(--padding) - var(--border-width));
+  }
+}
+
+@page {
+  size: var(--width) var(--height);
+  margin: 0;
+
+  @top-left-corner {
+    content: none;
+  }
+  @top-right-corner {
+    content: none;
+  }
+  @bottom-right-corner {
+    content: none;
+  }
+  @bottom-left-corner {
+    content: none;
+  }
+}
