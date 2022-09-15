@@ -1,11 +1,11 @@
-name: Build site
+name: Build and deploy GitHub Pages
 
 on:
   push:
     branches: ['main']
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     permissions:
