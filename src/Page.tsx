@@ -14,7 +14,7 @@ function Page() {
             <p>{data.location}</p>
             <p>{data.email}</p>
             <div className="flex items-center">
-              <img className="w-4 h-4" src="/github.svg" alt="GitHub logo" />
+              <img className="w-4 h-4" src="github.svg" alt="GitHub logo" />
               <p>/{data.githubUsername}</p>
             </div>
           </div>
@@ -22,12 +22,14 @@ function Page() {
 
         <SectionTitle>Skills</SectionTitle>
         <table>
-          {data.skills.map(({ category, items }, i) => (
-            <tr key={i}>
-              <td className="pr-3 text-right align-top font-bold">{category}</td>
-              <td>{items.join(', ')}</td>
-            </tr>
-          ))}
+          <tbody>
+            {data.skills.map(({ category, items }, i) => (
+              <tr key={i}>
+                <td className="pr-3 text-right align-top font-bold">{category}</td>
+                <td>{items.join(', ')}</td>
+              </tr>
+            ))}
+          </tbody>
         </table>
 
         <SectionTitle>Experience</SectionTitle>

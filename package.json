@@ -12,8 +12,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build && cd build && electron-pdf --pageSize=Letter --printBackground --outputWait=1000 $(pwd)/index.html $(pwd)/../resume.pdf"
   },
+  "homepage": "./",
   "eslintConfig": {
     "extends": [
       "react-app"
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
+    "electron-pdf": "^20.0.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }

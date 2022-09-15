@@ -7,7 +7,7 @@ export default {
   skills: [
     {
       category: 'Languages',
-      items: ['TypeScript', 'Go', 'Java'],
+      items: ['TypeScript', 'Go', 'Java', 'Kotlin'],
     },
     {
       category: 'Tools',
@@ -46,8 +46,8 @@ export default {
       start: 'January 2022',
       end: 'Present',
       body: [
-        "Produced the agency's first interactive Next.js SPA from scratch. This fetched data from the USDA's FoodData Central database to enable nutritionists to build healthy eating plans with live nutrition fact aggregations. Its completion expanded the breadth of development services available to clients.",
-        'Supported the back-end and front-end development of several US government-owned web properties including Next.js, Drupal, and Wordpress deployments. Worked in a small yet international team to build features including filtered and paginated fuzzy searching of a database, as well as a trending content page based on the z-score of page view changes over time.',
+        "Produced the agency's first interactive Next.js SPA from scratch. This fetched data from the USDA's FoodData Central database to enable a select group of client-employed nutritionists to build healthy eating plans with live nutrition fact aggregations. Its completion expanded the breadth of development services available to clients.",
+        'Supported the back-end and front-end development of several US government-owned web properties including Next.js, Drupal, and Wordpress deployments. Worked in an international team of four to build features including filtered and paginated fuzzy searching of a database, as well as a trending content page based on the z-score of page view changes over time.',
       ],
     },
     {
@@ -58,7 +58,7 @@ export default {
       end: 'Present',
       body: [
         'Founded an LLC to offer web development services to several small businesses and startups. Started greenfield projects and enhanced existing ones. Managed all invoicing, bookkeeping, and client outreach.',
-        'Bootstrapped a fintech startup from Figma designs (Next.js, Prisma, Tailwind CSS). Continuously accomodated changing client requirements and promptly responded to feedback throughout.',
+        'Bootstrapped a fintech startup from Figma designs (Next.js, Prisma, Tailwind CSS). Integrated third-party financial services to pull users\' debts, credit reports, and automated valuation models (AVMs) of properties.',
       ],
     },
     {
@@ -69,7 +69,7 @@ export default {
       end: 'June 2021',
       body: [
         'Enriched product owner insights into team productivity by tracking Azure DevOps issue-closing activity from its REST and OData API endpoints; displayed in graphs with the Highcharts library.',
-        'Halved the 10-second time-to-hydration of an internal application (C#, .NET, React) by parallelizing back-end and front-end network calls. In weekly surveys thereafter, users reported an improved UX.',
+        'Halved the data loading time of an internal application (C#, .NET, React) by parallelizing back-end and front-end network calls. In weekly live surveys thereafter, users reported an improved UX.',
         'Pair-programmed with team members and submitted code reviews to promote code quality.',
       ],
     },
