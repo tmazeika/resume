@@ -20,6 +20,13 @@ function Page() {
           </div>
         </div>
 
+        <SectionTitle>Education</SectionTitle>
+        {data.education.map((title, i) => (
+          <div key={i}>
+            <ItemTitle {...title} />
+          </div>
+        ))}
+
         <SectionTitle>Skills</SectionTitle>
         <table>
           <tbody>
@@ -41,13 +48,6 @@ function Page() {
                 <li key={i}>{text}</li>
               ))}
             </List>
-          </div>
-        ))}
-
-        <SectionTitle>Education</SectionTitle>
-        {data.education.map((title, i) => (
-          <div key={i}>
-            <ItemTitle {...title} />
           </div>
         ))}
       </div>
