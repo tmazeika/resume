@@ -7,25 +7,21 @@ export default {
   skills: [
     {
       category: 'Languages',
-      items: ['TypeScript', 'Go', 'Java', 'Kotlin', 'C#', 'SQL'],
+      items: ['TypeScript', 'Go', 'Kotlin'],
     },
     {
       category: 'Tools',
-      items: ['Node.js/Next.js', 'Vercel', 'MongoDB', 'PostgreSQL', 'Docker', '*nix'],
+      items: ['Node.js/Next.js', 'PostgreSQL', 'MongoDB', 'Docker', '*nix'],
     },
     {
       category: 'Interests',
-      // items: [
-      //   'Full-stack web development',
-      //   'operating systems',
-      //   'compilers',
-      //   'programming languages',
-      //   'functional programming',
-      //   'optimization',
-      // ],
       items: [
         'Full-stack web development',
+        // 'operating systems',
+        // 'compilers',
+        // 'programming languages',
         'functional programming',
+        // 'optimization',
       ],
     },
   ],
@@ -40,11 +36,20 @@ export default {
   ],
   experience: [
     {
+      company: 'JPMorgan Chase & Co.',
+      position: 'Senior Associate Software Engineer',
+      location: 'Austin, TX',
+      start: 'December 2022',
+      end: 'Present',
+      body: [
+      ],
+    },
+    {
       company: 'Urban Emu',
       position: 'Software Engineer',
       location: 'Remote',
-      start: 'January 2022',
-      end: 'Present',
+      start: 'August 2021',
+      end: 'December 2022',
       body: [
         "Produced the agency's first interactive Next.js SPA from scratch. This fetched data from the USDA's database of foods (FDC) to enable a select group of client-employed nutritionists to build healthy eating plans with live nutrition fact aggregations. Its completion elevated the agency's advertised capabilities.",
         'Supported the back-end and front-end development of several US government-owned web properties including Next.js, Drupal, and Wordpress deployments. Worked in an international team of four to build features including filtered and paginated fuzzy searching of a database, as well as a trending content page based on the z-score of page view changes over time (PHP).',
@@ -55,7 +60,7 @@ export default {
       position: 'Founder & Software Engineer',
       location: 'Remote',
       start: 'November 2020',
-      end: 'Present',
+      end: 'December 2022',
       body: [
         'Founded an LLC to offer web development services to several small businesses and startups. Started greenfield projects and enhanced existing ones. Managed all invoicing, bookkeeping, and client outreach.',
         'Bootstrapped a fintech startup from Figma designs (Next.js, Prisma, tRPC). Integrated third-party financial services to pull users\' debts, credit reports, and automated valuation models (AVMs) of properties.',
@@ -73,17 +78,17 @@ export default {
         'Pair-programmed with team members and submitted code reviews to promote code quality.',
       ],
     },
-    {
-      company: 'Digitas',
-      position: 'DevOps Engineer Co-op',
-      location: 'Boston, MA',
-      start: 'January',
-      end: 'July 2020',
-      body: [
-        "Eliminated flakiness in a QA automation suite (Selenium, Java), which decreased runtime from 6 hours to just 30 minutes, by waiting for elements to become interactive before running assertions on them. This enabled QA to run tests on-demand, rather than once daily, and built confidence in quality team-wide.",
-        'Wrote clear and concise documentation for deploying an SAP Hybris and Adobe AEM application to staging and production clusters (Git, Bash), guaranteeing the success and consistency of manual deployments.',
-      ],
-    },
+    // {
+    //   company: 'Digitas',
+    //   position: 'DevOps Engineer Co-op',
+    //   location: 'Boston, MA',
+    //   start: 'January',
+    //   end: 'July 2020',
+    //   body: [
+    //     "Eliminated flakiness in a QA automation suite (Selenium, Java), which decreased runtime from 6 hours to just 30 minutes, by waiting for elements to become interactive before running assertions on them. This enabled QA to run tests on-demand, rather than once daily, and built confidence in quality team-wide.",
+    //     'Wrote clear and concise documentation for deploying an SAP Hybris and Adobe AEM application to staging and production clusters (Git, Bash), guaranteeing the success and consistency of manual deployments.',
+    //   ],
+    // },
   ],
   keywords: [
     'Agile',
