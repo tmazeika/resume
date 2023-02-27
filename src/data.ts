@@ -37,7 +37,7 @@ export default {
   experience: [
     {
       company: 'JPMorgan Chase & Co.',
-      position: 'Senior Associate Software Engineer',
+      position: 'Software Engineer III',
       location: 'Austin, TX',
       start: 'December 2022',
       end: 'Present',
