@@ -75,7 +75,6 @@ export default {
       body: [
         'Enriched product owner insights into team productivity by tracking Azure DevOps issue-closing activity from its REST and OData API endpoints; displayed in graphs with the Highcharts library.',
         'Halved the data loading time of an internal application (C#, .NET, React) by parallelizing back-end and front-end network calls. In weekly live surveys thereafter, users reported a significantly improved UX.',
-        'Pair-programmed with team members and submitted code reviews to promote code quality.',
       ],
     },
     // {
