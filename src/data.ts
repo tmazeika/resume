@@ -42,7 +42,7 @@ export default {
       start: 'December 2022',
       end: 'Present',
       body: [
-        "Engineered critical back-end features for a public web-based developer console used for managing access to JPMorgan Payments APIs (Java, Spring Boot, WebFlux, Liquibase, Hibernate, Amazon Aurora). Successfully dealt with the challenges of a large, legacy codebase, addressing performance and consistency concerns in a distributed microservice architecture.",
+        "Engineered critical features for a public web-based developer console used for managing access to JPMorgan Payments APIs (Java, Spring Boot, WebFlux, Liquibase, Hibernate, Amazon Aurora, React). Successfully dealt with the challenges of a large, legacy codebase, addressing performance and consistency concerns in a distributed microservice architecture.",
         "Authored thorough design documents and executed Agile spike stories in response to evolving requirements. Actively presented solutions and offered insights in a four-person team during daily in-person standups, sprint planning sessions, and retrospectives.",
       ],
     },
