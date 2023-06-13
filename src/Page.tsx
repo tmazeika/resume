@@ -6,9 +6,9 @@ function Page() {
     <>
       <div className="space-y-3 font-serif text-sm">
         <div className="flex justify-between">
-          <div>
+          <div className="space-y-3">
             <h1 className="font-bold text-3xl">{data.name}</h1>
-            <p>{data.position}</p>
+            <p className="max-w-sm">{data.position}</p>
           </div>
           <div className="flex flex-col items-end">
             <p>{data.location}</p>
@@ -32,7 +32,7 @@ function Page() {
           </tbody>
         </table>
 
-        <SectionTitle>Experience</SectionTitle>
+        <SectionTitle>Professional Experience</SectionTitle>
         {data.experience.map(({ body, ...title }, i) => (
           <div key={i}>
             <ItemTitle {...title} />
@@ -52,9 +52,9 @@ function Page() {
         ))}
       </div>
 
-      <p className="absolute inset-0 bottom-auto text-blue-400 print:text-white text-xs">
+      {/* <p className="absolute inset-0 bottom-auto text-blue-400 print:text-white text-xs">
         {data.keywords.join(', ')}
-      </p>
+      </p> */}
     </>
   );
 }

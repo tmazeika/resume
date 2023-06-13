@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      serif: ['Lora', 'serif'],
+      serif: ['EBGaramond', 'serif'],
     },
     extend: {},
   },

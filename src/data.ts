@@ -1,17 +1,17 @@
 export default {
   name: 'TJ Mazeika',
-  position: 'Software Engineer',
+  position: 'Mid-level software engineer at JPMorgan Chase & Co. with three years of professional and 12 years of personal experience.',
   location: 'Austin, TX',
   email: 'mazeika.tj@gmail.com',
   githubUsername: 'tmazeika',
   skills: [
     {
       category: 'Languages',
-      items: ['TypeScript', 'Go', 'Kotlin'],
+      items: ['Kotlin', 'Java', 'TypeScript', 'Go'],
     },
     {
       category: 'Tools',
-      items: ['Node.js/Next.js', 'PostgreSQL', 'MongoDB', 'Docker', '*nix'],
+      items: ['Ktor', 'Spring Boot', 'Node.js/Next.js', 'PostgreSQL', 'MongoDB', 'Docker', '*nix', 'AWS'],
     },
     {
       category: 'Interests',
@@ -42,6 +42,8 @@ export default {
       start: 'December 2022',
       end: 'Present',
       body: [
+        "Engineered critical back-end features for a public web-based developer console used for managing access to JPMorgan Payments APIs. Written in Java with Spring Boot, WebFlux, Liquibase, Hibernate, and Amazon Aurora. Successfully dealt with the challenges of a large, legacy codebase, addressing performance and consistency concerns in a distributed microservices arcitecture.",
+        "Authored thorough design documents and executed Agile spike stories in response to evolving requirements and a complex, highly uncertain environment. Actively presented solutions and offered insights during daily standups, sprint planning sessions, and retrospectives.",
       ],
     },
     {

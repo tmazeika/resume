@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Lora';
+  font-family: 'EBGaramond';
   font-style: normal;
   font-weight: 400;
-  src: url(./lora.ttf) format('truetype');
+  src: url(./EBGaramond.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Lora';
+  font-family: 'EBGaramond';
   font-style: italic;
   font-weight: 400;
-  src: url(./lora-italics.ttf) format('truetype');
+  src: url(./EBGaramond-Italic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Lora';
+  font-family: 'EBGaramond';
   font-style: normal;
   font-weight: 700;
-  src: url(./lora.ttf) format('truetype');
+  src: url(./EBGaramond.ttf) format('truetype');
 }
 
 :root {
