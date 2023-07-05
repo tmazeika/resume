@@ -8,7 +8,7 @@ function Page() {
         <div className="flex justify-between">
           <div className="space-y-3">
             <h1 className="font-bold text-3xl">{data.name}</h1>
-            <p className="max-w-sm">{data.position}</p>
+            {/* <p className="max-w-sm">{data.position}</p> */}
           </div>
           <div className="flex flex-col items-end">
             <p>{data.location}</p>
@@ -19,6 +19,25 @@ function Page() {
             </div>
           </div>
         </div>
+
+        <SectionTitle>Education</SectionTitle>
+        {data.education.map((title, i) => (
+          <div key={i}>
+            <ItemTitle {...title} />
+          </div>
+        ))}
+
+        <SectionTitle>Experience</SectionTitle>
+        {data.experience.map(({ body, ...title }, i) => (
+          <div key={i}>
+            <ItemTitle {...title} />
+            <List>
+              {body.map((text, i) => (
+                <li key={i}>{text}</li>
+              ))}
+            </List>
+          </div>
+        ))}
 
         <SectionTitle>Skills</SectionTitle>
         <table>
@@ -31,25 +50,6 @@ function Page() {
             ))}
           </tbody>
         </table>
-
-        <SectionTitle>Professional Experience</SectionTitle>
-        {data.experience.map(({ body, ...title }, i) => (
-          <div key={i}>
-            <ItemTitle {...title} />
-            <List>
-              {body.map((text, i) => (
-                <li key={i}>{text}</li>
-              ))}
-            </List>
-          </div>
-        ))}
-
-        <SectionTitle>Education</SectionTitle>
-        {data.education.map((title, i) => (
-          <div key={i}>
-            <ItemTitle {...title} />
-          </div>
-        ))}
       </div>
 
       {/* <p className="absolute inset-0 bottom-auto text-blue-400 print:text-white text-xs">
@@ -68,13 +68,11 @@ function SectionTitle({ children }: { children: ReactNode }) {
 function ItemTitle({
   company,
   position,
-  location,
   start,
   end,
 }: {
   company: string;
   position: string;
-  location: string;
   start: string;
   end: string;
 }) {
@@ -82,7 +80,7 @@ function ItemTitle({
     <div className="flex justify-between">
       <div>
         <p>
-          <strong>{company}</strong> &mdash; {location}
+          <strong>{company}</strong>
         </p>
         <p>
           <em>{position}</em>

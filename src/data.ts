@@ -1,6 +1,6 @@
 export default {
   name: 'TJ Mazeika',
-  position: 'Mid-level software engineer at JPMorgan Chase & Co. with three years of professional and 12 years of personal experience.',
+  position: 'Software engineer at JPMorgan Chase & Co.',
   location: 'Austin, TX',
   email: 'mazeika.tj@gmail.com',
   githubUsername: 'tmazeika',
@@ -37,8 +37,7 @@ export default {
   experience: [
     {
       company: 'JPMorgan Chase & Co.',
-      position: 'Software Engineer III',
-      location: 'Austin, TX',
+      position: 'Software Engineer',
       start: 'December 2022',
       end: 'Present',
       body: [
@@ -49,7 +48,6 @@ export default {
     {
       company: 'Urban Emu',
       position: 'Software Engineer',
-      location: 'Remote',
       start: 'August 2021',
       end: 'December 2022',
       body: [
@@ -60,7 +58,6 @@ export default {
     {
       company: 'FoldLeft',
       position: 'Founder & Software Engineer',
-      location: 'Remote',
       start: 'November 2020',
       end: 'December 2022',
       body: [
@@ -71,8 +68,7 @@ export default {
     {
       company: 'AIR Worldwide',
       position: 'Software Engineer Co-op',
-      location: 'Boston, MA',
-      start: 'January',
+      start: 'January 2021',
       end: 'June 2021',
       body: [
         'Enriched product owner insights into team productivity by tracking Azure DevOps issue-closing activity from its REST and OData API endpoints; displayed in graphs with the Highcharts library.',
