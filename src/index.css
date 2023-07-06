@@ -30,18 +30,16 @@
 }
 
 body {
-  width: var(--width);
-  height: var(--height);
-  margin: 0;
-  padding: var(--padding);
-  position: relative;
+  @apply w-[var(--width)];
+  @apply h-[var(--height)];
+  @apply p-[var(--padding)];
 }
 
 @media screen {
   body {
-    --border-width: 1px;
-    border: var(--border-width) solid theme('colors.blue.400');
-    padding: calc(var(--padding) - var(--border-width));
+    @apply border;
+    @apply mx-auto;
+    @apply my-16;
   }
 }
 
