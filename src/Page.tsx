@@ -8,7 +8,6 @@ function Page() {
         <div className="flex justify-between">
           <div className="space-y-3">
             <h1 className="font-bold text-3xl">{data.name}</h1>
-            {/* <p className="max-w-sm">{data.position}</p> */}
           </div>
           <div className="flex flex-col items-end">
             <p>{data.location}</p>
@@ -33,6 +32,20 @@ function Page() {
             <ItemTitle {...title} />
             <List>
               {body.map((text, i) => (
+                <li key={i} className='whitespace-pre-wrap'>{text}</li>
+              ))}
+            </List>
+          </div>
+        ))}
+
+        <SectionTitle>Projects</SectionTitle>
+        {data.projects.map(({ name, url, body }, i) => (
+          <div key={i}>
+            <p>
+              <strong className='mr-2'>{name}</strong><em>{url}</em>
+            </p>
+            <List>
+              {body.map((text, i) => (
                 <li key={i}>{text}</li>
               ))}
             </List>
@@ -40,21 +53,15 @@ function Page() {
         ))}
 
         <SectionTitle>Skills</SectionTitle>
-        <table>
-          <tbody>
-            {data.skills.map(({ category, items }, i) => (
-              <tr key={i}>
-                <td className="pr-3 text-right align-top font-bold">{category}</td>
-                <td>{items.join(', ')}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div className='flex gap-4'>
+          {data.skills.map(({ category, items }, i) => (
+            <div key={i}>
+              <strong className="pr-2">{category}</strong>
+              {items.join(', ')}
+            </div>
+          ))}
+        </div>
       </div>
-
-      {/* <p className="absolute inset-0 bottom-auto text-blue-400 print:text-white text-xs">
-        {data.keywords.join(', ')}
-      </p> */}
     </>
   );
 }
@@ -80,10 +87,7 @@ function ItemTitle({
     <div className="flex justify-between">
       <div>
         <p>
-          <strong>{company}</strong>
-        </p>
-        <p>
-          <em>{position}</em>
+          <strong className='mr-2'>{company}</strong><em>{position}</em>
         </p>
       </div>
       <p>
