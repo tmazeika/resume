@@ -67,15 +67,6 @@ export default {
         "Integrated third-party financial services to pull applicants' debts, credit reports, and property values in real time."
       ],
     },
-    // {
-    //   name: 'emulifx',
-    //   url: 'github.com/tmazeika/emulifx',
-    //   body: [
-    //     'A LIFX smart bulb emulator (Go, OpenGL).',
-    //     "Reverse-engineered the partially undocumented LIFX LAN protocol from the LIFX Android app's APK.",
-    //     "Implemented a custom-built API which also enabled the LIFX app to control LED strips connected to a Raspberry Pi."
-    //   ],
-    // },
   ],
   skills: [
     {
