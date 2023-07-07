@@ -12,7 +12,7 @@ function Page() {
           <div className="flex flex-col items-end">
             <p>{data.location}</p>
             <p>{data.email}</p>
-            <div className="flex items-center">
+            <div className="flex items-center gap-px">
               <img className="w-4 h-4" src="github.svg" alt="GitHub logo" />
               <p>/{data.githubUsername}</p>
             </div>
