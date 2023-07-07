@@ -63,7 +63,7 @@ export default {
       body: [
         'Digitized the process of applying for a home equity line of credit (Next.js, MongoDB).',
         'Built as the MVP for a seed-stage fintech startup.',
-        'Securely handled sensitive user data and refined the client\'s requirements to minimize the amount of stored PII.',
+        'Securely handled sensitive user data and pushed to refine the client\'s requirements to minimize the amount of stored PII.',
         "Integrated third-party financial services to pull applicants' debts, credit reports, and property values in real time."
       ],
     },
