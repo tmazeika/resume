@@ -30,16 +30,14 @@
 }
 
 body {
-  @apply w-[var(--width)];
-  @apply h-[var(--height)];
-  @apply p-[var(--padding)];
+  @apply w-[var(--width)] h-[var(--height)] p-[var(--padding)];
 }
 
 @media screen {
   body {
     @apply border;
-    @apply mx-auto;
-    @apply my-16;
+    @apply mx-auto my-[var(--padding)];
+    padding: calc(var(--padding) - 1px);
   }
 }
 
