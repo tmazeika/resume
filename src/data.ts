@@ -54,7 +54,7 @@ export default {
       url: 'github.com/tmazeika/apt-tracker',
       body: [
         'Screen-scraped apartment websites to track pricing and availability (Python).',
-        'Uploaded data to Supabase (PostgreSQL) and displayed them on a dashboard (React).',
+        'Uploaded data to Supabase (PostgreSQL).',
       ],
     },
     {
