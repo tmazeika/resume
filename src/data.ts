@@ -7,7 +7,7 @@ export default {
   education: [
     {
       company: 'Northeastern University',
-      position: 'Bachelor of Science in Computer Science, summa cum laude',
+      position: 'Bachelor of Science in Computer Science, 3.9/4.0 GPA',
       location: 'Boston, MA',
       start: 'September 2018',
       end: 'December 2021',
@@ -21,9 +21,9 @@ export default {
       end: 'Present',
       body: [
         "Engineered critical back-end features for a public developer-focused web interface used for managing access to JPMorgan Payments APIs (Java, Spring Boot, AWS).",
+        "Led the research, planning, and development of a quarter-long epic to update core functionality to use new major versions of internal APIs. Worked closely with the relevant teams across business units to understand the new APIs' data models and usage.",
         "Mentored associate engineers in React and offered guidance on best practices for writing maintainable and efficient code.",
-        "Initiated and helped implement a comprehensive end-to-end testing suite (Kotlin) for the entire distributed system. This suite ran on a schedule and prevented at least two major bugs and several minor ones from reaching production.", 
-        "Actively presented solutions and offered insights in a four-person team during retrospectives and daily standups.",
+        "Initiated and helped implement a comprehensive end-to-end testing suite (Kotlin) for the entire distributed system. This suite ran on a schedule and prevented several major bugs from reaching production.", 
       ],
     },
     {
@@ -32,7 +32,7 @@ export default {
       start: 'August 2021',
       end: 'December 2022',
       body: [
-        "Owned the agency's first interactive Next.js SPA. This fetched data from the USDA's 3 GB database of foods to enable the client to more efficiently build healthy eating plans. Elevated the agency's advertised capabilities.",
+        "Owned the agency's first interactive Next.js SPA. This fetched data from the USDA's database of foods to enable the client to more efficiently build healthy eating plans. Elevated the agency's advertised capabilities.",
         "Proposed and developed an internal Google Calendar add-on (TypeScript) to automate the process of completing multiple daily client-specific timesheets, ultimately saving every employee about six hours every month.",
         'Worked in an international team of four to build features including filtered and paginated fuzzy searching of a database, as well as a trending content page based on the z-score of page view changes over time (PHP).',
       ],
@@ -49,14 +49,6 @@ export default {
     },
   ],
   projects: [
-    {
-      name: 'apt-tracker',
-      url: 'github.com/tmazeika/apt-tracker',
-      body: [
-        'Screen-scraped apartment websites to track pricing and availability (Python).',
-        'Uploaded data to Supabase (PostgreSQL).',
-      ],
-    },
     {
       name: 'Hitch',
       url: 'usehitch.com',
