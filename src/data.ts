@@ -59,6 +59,14 @@ export default {
         "Integrated third-party financial services to pull applicants' debts, credit reports, and property values in real time."
       ],
     },
+    {
+      name: 'apt-tracker',
+      url: 'github.com/tmazeika/apt-tracker',
+      body: [
+        'Screen-scraped apartment websites to track pricing and availability across downtown Austin, TX (Python).',
+        'Uploaded data to Supabase (PostgreSQL) via cURL.',
+      ],
+    },
   ],
   skills: [
     {
