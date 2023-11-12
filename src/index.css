@@ -58,3 +58,7 @@ body {
     content: none;
   }
 }
+
+a {
+  @apply text-sky-700;
+}
