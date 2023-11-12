@@ -22,7 +22,7 @@ export default {
       start: 'December 2022',
       end: 'Present',
       body: [
-        "Led research, planning, and development of quarter-long project to migrate core functionality to use new internal APIs, data models, and usage patterns.",
+        "Led research, planning, and development of quarter-long project to migrate core functionality of Payments Developer Portal to use new internal APIs, data models, and usage patterns.",
         'Decreased time to onboard new clients from months to minutes by automating the process of requesting and approving access to APIs while also instantly providing a sandbox environment for testing.',
         "Mentored associate engineers in Java, Spring Boot, React, and Next.js and offered guidance on best practices for writing readable and maintainable code in pair-programming sessions and PR reviews.",
         "Initiated and implemented a comprehensive end-to-end testing suite (Kotlin) for the entire distributed system. The suite ran hourly and prevented several major bugs from reaching production.",
