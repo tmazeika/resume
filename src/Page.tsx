@@ -19,13 +19,6 @@ function Page() {
           </div>
         </div>
 
-        <SectionTitle>Education</SectionTitle>
-        {data.education.map((title, i) => (
-          <div key={i}>
-            <ItemTitle {...title} />
-          </div>
-        ))}
-
         <SectionTitle>Experience</SectionTitle>
         {data.experience.map(({ body, ...title }, i) => (
           <div key={i}>
@@ -38,7 +31,7 @@ function Page() {
           </div>
         ))}
 
-        <SectionTitle>Projects</SectionTitle>
+        {/* <SectionTitle>Projects</SectionTitle>
         {data.projects.map(({ name, url, body }, i) => (
           <div key={i}>
             <p>
@@ -49,6 +42,13 @@ function Page() {
                 <li key={i}>{text}</li>
               ))}
             </List>
+          </div>
+        ))} */}
+
+        <SectionTitle>Education</SectionTitle>
+        {data.education.map((title, i) => (
+          <div key={i}>
+            <ItemTitle {...title} />
           </div>
         ))}
 
@@ -72,29 +72,37 @@ function SectionTitle({ children }: { children: ReactNode }) {
   return <h1 className="pb-0.5 border-b border-gray-400 text-xl">{children}</h1>;
 }
 
-function ItemTitle({
-  company,
-  position,
-  start,
-  end,
-}: {
-  company: string;
+function ItemTitle(props: {
+  company?: string
+} & ({} | {
   position: string;
   start: string;
   end: string;
-}) {
-  return (
-    <div className="flex justify-between">
-      <div>
+})) {
+  if ('position' in props) {
+    return (
+      <div className="flex justify-between">
+        <div>
+          <p>
+            {props.company && (
+              <strong className='mr-2'>{props.company}</strong>
+            )}<em>{props.position}</em>
+          </p>
+        </div>
         <p>
-          <strong className='mr-2'>{company}</strong><em>{position}</em>
+          {props.start} &mdash; {props.end}
         </p>
       </div>
+    );
+  } else if (props.company) {
+    return (
       <p>
-        {start} &mdash; {end}
+        <strong>{props.company}</strong>
       </p>
-    </div>
-  );
+    )
+  } else {
+    return null;
+  }
 }
 
 function List({ children }: { children: ReactNode }) {
