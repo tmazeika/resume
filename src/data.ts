@@ -14,8 +14,8 @@ export default {
       end: 'December 2021',
       body: [
         'Graduated three semesters early with two co-op experiences and summa cum laude honors.',
-        'Co-op at AIR Worldwide (January \u2014 June 2021). Built internal dashboard for Azure DevOps metrics in C#, .NET, and React.',
-        'Co-op at Digitas (January \u2014 July 2020). Deployed Adobe AEM and SAP Hybris applications across server clusters.',
+        'Built internal Azure DevOps metrics dashboard in C#, .NET, and React during co-op at AIR Worldwide (January \u2014 June 2021).',
+        'Deployed Adobe AEM and SAP Hybris applications across server clusters during co-op at Digitas (January \u2014 July 2020).',
       ],
     },
   ],
@@ -40,7 +40,7 @@ export default {
       start: 'May 2022',
       end: 'December 2022',
       body: [
-        'Built MVP for home equity line of credit online application (Next.js, MongoDB) for seed-stage fintech startup. Founders demoed product to potential partner banks, data providers, and investors.',
+        'Bootstrapped seed-stage fintech startup by building MVP for home equity line of credit online application (Next.js, MongoDB). Founders demoed product to potential partner banks, data providers, and investors.',
         'Secured sensitive user data and refined requirements to minimize stored personal identifiable information.',
         "Integrated third-party financial services to pull applicants' debts, credit reports, and property values in real time."
       ],
