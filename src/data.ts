@@ -41,7 +41,7 @@ export default {
       end: 'December 2022',
       body: [
         'Bootstrapped seed-stage fintech startup by building MVP for home equity line of credit online application (Next.js, MongoDB). Founders demoed product to potential partner banks, data providers, and investors.',
-        'Secured sensitive user data and refined requirements to minimize stored personal identifiable information.',
+        'Secured sensitive user data and refined requirements to minimize stored PII.',
         "Integrated third-party financial services to pull applicants' debts, credit reports, and property values in real time."
       ],
     },
