@@ -12,6 +12,11 @@ export default {
       location: 'Boston, MA',
       start: 'September 2018',
       end: 'December 2021',
+      body: [
+        'Graduated three semesters early with two co-op experiences and summa cum laude honors.',
+        'Co-op at AIR Worldwide (January \u2014 June 2021). Built internal dashboard for Azure DevOps metrics in C#, .NET, and React.',
+        'Co-op at Digitas (January \u2014 July 2020). Deployed Adobe AEM and SAP Hybris applications across server clusters.',
+      ],
     },
   ],
   experience: [

@@ -40,9 +40,14 @@ function Page() {
         ))}
 
         <SectionTitle>Education</SectionTitle>
-        {data.education.map((title, i) => (
+        {data.education.map(({ body, ...title }, i) => (
           <div key={i}>
             <ItemTitle {...title} />
+            <List>
+              {body.map((text, i) => (
+                <li key={i} className='whitespace-pre-wrap'>{text}</li>
+              ))}
+            </List>
           </div>
         ))}
 
