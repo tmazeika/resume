@@ -51,7 +51,7 @@ export default {
       start: 'August 2021',
       end: 'December 2022',
       body: [
-        "Owned the agency's first interactive Next.js SPA to elevate its advertised capabilities. The application enabled the US Department of Agriculture (USDA) to more efficiently create healthy eating plans for Americans.",
+        "Owned the agency's first interactive Next.js SPA to elevate its advertised capabilities. The application enabled the US Department of Agriculture to more efficiently create healthy eating plans for Americans.",
         "Proposed and developed an internal Google Calendar add-on (TypeScript) to automate completion of daily client-specific timesheets. Saved every employee several non-billable hours per month.",
         'Formulated a trending content page based on the floating average z-score of page view changes over time.',
       ],
