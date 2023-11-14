@@ -4,7 +4,7 @@ export default {
   location: 'Austin, TX',
   email: 'mazeika.tj@gmail.com',
   githubUsername: 'tmazeika',
-  linkedInUsername: 'tj-mazeika',
+  linkedInUsername: 'tmazeika',
   education: [
     {
       company: 'Northeastern University',
