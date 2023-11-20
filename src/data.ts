@@ -43,7 +43,7 @@ export default {
       body: [
         'Bootstrapped seed-stage fintech startup by building MVP for home equity line of credit online application (Next.js, MongoDB). Founders demoed product to potential partner banks, data providers, and investors.',
         "Eliminated the need for manual document uploads and verification by integrating third-party financial services to pull applicants' debts, credit reports, and property values in real time. This allowed for an immediate quote of estimated available equity and rates, down from the typical 24 to 48 hours.",
-        "Delivered accurate time and cost estimates to COO during all stages of product development. Executives used that information to optimize resource allocation and determine company health and runway.",
+        "Collaborated closely with COO to provide accurate engineering plans, helping to optimize resource allocation and calculate runway.",
       ],
     },
     {
