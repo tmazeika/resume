@@ -76,8 +76,8 @@ function ItemTitle(props: {
   companyUrl?: string;
   position: string;
   product?: readonly [string, string];
-  start: string;
-  end: string;
+  start?: string;
+  end?: string;
 }) {
   return (
     <div className="flex justify-between">
@@ -97,7 +97,9 @@ function ItemTitle(props: {
         </p>
       </div>
       <p>
-        {props.start} &mdash; {props.end}
+        {props.start && props.end && (
+          <>{props.start} &mdash; {props.end}</>
+        )}
       </p>
     </div>
   );
