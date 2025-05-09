@@ -43,7 +43,7 @@ export default {
       start: "May 2022",
       end: "December 2022",
       body: [
-        "Bootstrapped seed-stage fintech startup by building MVP for home equity line of credit online application (Next.js, React, MongoDB). Founders demoed product to potential partner banks, data providers, and investors.",
+        "Bootstrapped seed-stage fintech startup by building MVP for home equity line of credit online application (Next.js, React, MongoDB, Vercel). Founders demoed product to potential partner banks, data providers, and investors.",
         "Eliminated the need for manual document uploads and verification by integrating third-party financial services to pull applicants' debts (Method, Plaid), credit reports (Xactus), and property values (ATTOM Data) in real time. This allowed for an immediate quote of estimated available equity and rates, down from the typical 24 to 48 hours.",
         "Collaborated closely with COO to provide accurate engineering plan, helping to optimize resource allocation and calculate runway.",
       ],
@@ -54,7 +54,7 @@ export default {
       start: "August 2021",
       end: "December 2022",
       body: [
-        "Owned the agency's first interactive Next.js SPA to elevate its advertised capabilities from only static content sites to dynamic web apps. The application enabled the US Department of Agriculture to more efficiently create healthy eating plans for Americans.",
+        "Owned the agency's first interactive Next.js SPA (React, PostgreSQL) to elevate its advertised capabilities from only static content sites to dynamic web apps. The application enabled the US Department of Agriculture to more efficiently create healthy eating plans for Americans.",
         "Automated the completion of daily client-specific timesheets by proposing and developing an internal Google Calendar add-on (TypeScript). Saved every employee up to six non-billable hours per month.",
       ],
     },
@@ -78,7 +78,7 @@ export default {
     },
     {
       category: "Tools",
-      items: ["AWS", "Spring Boot", "Node.js", "Next.js/React", "*nix"],
+      items: ["AWS", "Spring Boot", "Node.js", "React", "MongoDB", "PostgreSQL", "*nix"],
     },
   ],
 } as const;
